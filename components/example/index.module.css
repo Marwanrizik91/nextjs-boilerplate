@@ -1,0 +1,10 @@
+.container {
+  @apply h-10
+  w-10
+  rounded-full
+  bg-red-500
+  text-center
+  font-bold
+  leading-10
+  text-white;
+}
