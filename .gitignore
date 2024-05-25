@@ -6,8 +6,10 @@
 .pnp.js
 .yarn/install-state.gz
 
-# testing
-/coverage
+# Jest
+coverage
+.swc
+junit.xml
 
 # next.js
 /.next/
@@ -27,18 +29,19 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env.*
 
-# vercel
+# Vercel Files
 .vercel
+.turbo
+cache
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 
-# Turborepo
-.turbo
-
-# Cache files
+# Cache Files
+.eslintjscache
+.eslintmdcache
 .stylelintcache
 .prettiercache
-*storybook.log
