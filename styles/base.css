@@ -1,0 +1,9 @@
+* {
+  @apply subpixel-antialiased;
+}
+
+html,
+body {
+  @apply size-full
+    [scrollbar-gutter:auto];
+}
