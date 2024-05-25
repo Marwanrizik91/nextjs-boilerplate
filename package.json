@@ -16,8 +16,8 @@
     "format": "npm run lint:fix && npm run prettier:fix",
     "test:unit:watch": "npm run test:unit -- --watch",
     "test": "turbo test:unit",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006 --quiet --no-open",
+    "build-storybook": "storybook build --quiet"
   },
   "engines": {
     "node": "v20"
